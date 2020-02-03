@@ -5,7 +5,7 @@
 </head>
 <body>
 	<INPUT type="button" value="배경색 변경." onClick="document.bgColor='red';"><br/><!-- 배경색 바뀌는 버튼 생성 -->
-	<INPUT type="button" id="name1" value="더블클릭" dblClick="dblClickFunction(this.id)"><br/>
+	<INPUT type="button" id="name1" value="더블클릭" ondblclick="dblClickFunction(this.id)"><br/>
 	<INPUT type="text" id="name2" onfocus="focusFunction(this.id)"><br/>
 	<INPUT type="text" id="name3" onfocus="focusFunction(this.id)"onblur="blurFunction(this.id)"><br/>
 	<!-- myButton이라는 아이디값을 갖는 버튼생성 -->
