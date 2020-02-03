@@ -4,12 +4,10 @@
 <meta charset="EUC-KR">
 </head>
 <body>
-	<form id="form_abl" dblClick="dblClickFunction(this.id)">
 	<INPUT type="button" value="배경색 변경." onClick="document.bgColor='red';"><br/><!-- 배경색 바뀌는 버튼 생성 -->
-	<INPUT type="text" id="name1" onfocus="focusFunction(this.id)"><br/>
-	<INPUT type="text" id="name2" onfocus="focusFunction(this.id)"onblur="blurFunction(this.id)"><br/>
-	<INPUT type="text" id="name3" onfocus="focusFunction(this.id)"><br/>
-	</form>
+	<INPUT type="button" id="name1" value="더블클릭" dblClick="dblClickFunction(this.id)"><br/>
+	<INPUT type="text" id="name2" onfocus="focusFunction(this.id)"><br/>
+	<INPUT type="text" id="name3" onfocus="focusFunction(this.id)"onblur="blurFunction(this.id)"><br/>
 	<!-- myButton이라는 아이디값을 갖는 버튼생성 -->
 	<button id="myButton">Click me</button>
 	<script type="text/javascript">
