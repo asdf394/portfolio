@@ -1,1 +1,19 @@
-js
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+</head>
+<body>
+	<!-- myButton이라는 아이디값을 갖는 버튼생성 -->
+	<button id="myButton">Click me</button>
+	
+	<script> 
+	//button에 click 이벤트 핸들러 추가
+	var button = document.getElementById('myButton'); 
+	//버튼 클릭시 'button clicked'라고 출력  
+	button.addEventListener('click', function() { 
+          document.write('button clicked!’); 
+          }); 
+</script>
+</body>
+</html>
